@@ -32,6 +32,7 @@ modules:
       - gnome-software
       - nvidia-settings
       - gnome-system-monitor
+      - gnome-shell-extension-supergfxctl-gex
       - dconf-editor
 
   - type: default-flatpaks
