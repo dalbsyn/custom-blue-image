@@ -23,13 +23,12 @@ modules:
     install:
       - baobab
     remove:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks
       - nvtop
       - htop
       - gnome-software
+      - fscrypt
       - nvidia-settings
 
   - type: default-flatpaks
