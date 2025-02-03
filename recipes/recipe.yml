@@ -24,6 +24,9 @@ modules:
       - baobab
       - fscrypt
       - adw-gtk3-theme
+      - podman-compose
+      - virtualization
+      
     remove:
       - firefox
       - firefox-langpacks
@@ -34,8 +37,6 @@ modules:
       - gnome-system-monitor
       - gnome-shell-extension-supergfxctl-gex
       - dconf-editor
-      - podman-compose
-      - virtualization
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
